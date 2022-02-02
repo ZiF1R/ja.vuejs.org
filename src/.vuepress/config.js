@@ -274,7 +274,7 @@ module.exports = {
       'link',
       {
         href:
-          'https://fonts.googleapis.com/css?family=Inter:300,400,500,600|Archivo:400,600|Open+Sans:400,600;display=swap',
+        'https://fonts.googleapis.com/css?family=Inter:300,400,500,600|Open+Sans:400,600;display=swap',
         rel: 'stylesheet'
       }
     ],
@@ -501,9 +501,9 @@ module.exports = {
     },
     smoothScroll: false,
     algolia: {
-      indexName: 'vuejs-v3',
+      indexName: 'vuejs_ja',
       appId: 'BH4D9OD16A',
-      apiKey: 'bc6e8acb44ed4179c30d0a45d6140d3f'
+      apiKey: '57a871e008024e665c33542b31676ae9'
     },
     carbonAds: {
       carbon: 'CEBDT27Y',

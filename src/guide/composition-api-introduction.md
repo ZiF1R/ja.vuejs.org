@@ -67,7 +67,7 @@ export default {
 
 ## Composition API の基本
 
-これで**なぜこの方法**にたどり着くのかわかりました。 Composition API の使用を開始するには、初めに実際に使用できる場所が必要です。Vue コンポーネントでは、この場所を `setup` と呼びます。
+さて、**なぜ** がわかったところで **どのように** するのか取りかかりましょう。Composition API の使用を開始するには、はじめに実際に使用できる場所が必要です。Vue コンポーネントでは、この場所を `setup` と呼びます。
 
 ### `setup` コンポーネントオプション
 
@@ -320,7 +320,7 @@ import { ref, onMounted, watch, toRefs } from 'vue'
 
 // コンポーネント内部
 setup (props) {
-  // props の `user` プロパティへのリアクティブな参照を作成するために `toRefs` を使用します
+  // `props` の `user` プロパティへのリアクティブな参照を作成するために `toRefs` を使用します
   const { user } = toRefs(props)
 
   const repositories = ref([])
